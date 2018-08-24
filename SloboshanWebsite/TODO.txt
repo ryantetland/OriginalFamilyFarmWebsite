@@ -1,8 +1,8 @@
-checkout form
-notify email of confirmation of order
-nutritional facts/cooking page
-contact info page
-fix loading of items problem
-buy domain
+-checkout form and auto email order
+-loadscript clear loaded images on page
+-responsive design for image grid
+-about us write up
+-abattoir write up
+-cooking instruction page
 
 
