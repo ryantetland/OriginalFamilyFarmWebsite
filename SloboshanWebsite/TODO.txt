@@ -1,0 +1,8 @@
+checkout form
+notify email of confirmation of order
+nutritional facts/cooking page
+contact info page
+fix loading of items problem
+buy domain
+
+

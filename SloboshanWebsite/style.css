@@ -1,0 +1,346 @@
+.navBarItem {
+	display: inline-block;
+	padding-right: 100px;
+	max-width: 200px;
+	
+}
+
+/* unvisited link */
+a:link {
+    color: gray;
+}
+
+/* visited link */
+a:visited {
+    color: gray;
+}
+
+/* mouse over link */
+a:hover {
+    background-color: hotpink;
+}
+
+
+#navbarContainer {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 100px;
+}
+
+#navbar {
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 2200px;
+	background-color: indianred;
+
+
+}
+
+#columnContainer {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+.column {
+	flex: 1 0 22%;
+	box-sizing: border-box;
+	padding: 5px;
+	background-color: lightgray;
+  border: 11px solid lightgray;
+}
+
+.column1 {
+	flex: 1 0 22%;
+	box-sizing: border-box;
+	padding-left:  10px;
+	background-color: lightgray;
+  border-style: solid;
+  border: 4px solid lightgray;
+  min-height: 1000px;
+
+
+}
+
+.column2 {
+	flex: 1 0 22%;
+	box-sizing: border-box;
+	padding: 50px;
+	background-color: darkgray;
+    min-height: 200px;
+
+}
+
+#pageWrap {
+	max-width: 1800px;
+}
+
+#pageWrap {
+	background-color: lightgray;
+
+}
+
+#background {
+    /* background: url(bisonBackground.jpg); */
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+#sizedbackground {
+    border: 2px solid ;
+    padding: 25px;
+    background: white;
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+
+    
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.indent {
+    text-indent: 20px;
+    cursor: pointer;
+}
+
+* {
+    font-family: verdana;
+}
+
+
+.header {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   background-color: indianred;
+   text-align: center;
+}
+
+.bottom {
+	height: 400px;
+	left: 0;
+	right: 0;
+   bottom: 0;
+   top: 0;
+   width: 100%;
+   background-color: black;
+   text-align: center;
+   border: 2px solid black;
+}
+
+
+.price {
+	margin: 10px 10px;
+	font-size: 16;
+	color: green;
+	text-align: center;
+}
+
+
+button {
+	border-radius: 25px;
+    background-color: indianred;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 60px;
+    cursor: pointer;
+    left: 10;
+}
+
+.buttonContainer{
+	text-align: center;
+}
+
+
+/* Right column */
+.rightcolumn {
+    float: right;
+    width: 75%;
+    padding-right: 130px;
+    
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 0px;
+    margin: 0px;
+    background: grey;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+     overflow: hidden;
+    background-color: black;
+    /* margin-right: 130px; 
+     margin-left: 130px; */
+
+     display: flex;
+     flex-wrap: wrap;
+     padding-left: 100px;
+     padding-right: 100px;
+     
+
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 25%;
+    padding-left: 130px;
+
+}
+
+.middlecolumn{
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 0px;
+    
+    background-color: grey;
+}
+.priceblock{
+    color: green;
+    font-size : 12;
+    margin-left : 10px;
+    margin-right : 10px;
+    text-align : center;
+}
+
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 10px;
+    text-align: left;
+    background: black;
+    /* margin-top: 20px; */
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 800px) {
+    .leftcolumn, .rightcolumn{   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+
+
+.topheader {
+    padding: 1px;
+    background: black;
+    text-align: right;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+.test {
+    background: url(Banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*padding: 305px; 
+    /* margin-left: 130px;
+    margin-right: 130px; */
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: darkgray;
+    padding: 0px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: center;
+  }
+
+  .gridContain {
+      background-color: rgba(255, 255, 255, 0.8);;
+      min-height: 1000px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
